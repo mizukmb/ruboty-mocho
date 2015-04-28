@@ -2,9 +2,10 @@ module Ruboty
   module Handlers
     class Mochobot < Base
       on(
-        /もちょ/,
+        /.*?(もちょ)/i,
         name: "mocho",
-        description: "Return もちょだよ～(○・▽・○)"
+        description: "Return もちょだよ～(○・▽・○)",
+        all: true
       )
 
       def mocho(message)
