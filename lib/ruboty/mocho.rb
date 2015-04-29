@@ -1,2 +1,3 @@
-require "ruboty/handlers/mocho"
+require "ruboty"
 require "ruboty/mocho/version"
+require "ruboty/handlers/mocho"
