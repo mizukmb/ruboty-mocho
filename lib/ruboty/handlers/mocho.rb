@@ -2,7 +2,7 @@ module Ruboty
   module Handlers
     class Mochobot < Base
       on(
-        /.*?(もちょ)/,
+        /もちょ/i,
         name: "mocho",
         description: "Return もちょだよ～(○・▽・○)",
         all: true
