@@ -4,12 +4,12 @@ module Ruboty
       on(
         /もちょ/i,
         name: "mocho",
-        description: "Return もちょだよ～(○・▽・○)",
+        description: "Return はろ～(○・▽・○)",
         all: true
       )
 
       def mocho(message)
-        message.reply("もちょだよ～(○・▽・○)")
+        message.reply("はろ～(○・▽・○)")
       end
     end
   end
